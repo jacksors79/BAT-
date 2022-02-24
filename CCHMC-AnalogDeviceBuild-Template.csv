@@ -1,0 +1,3 @@
+SITEID,Department,GatewayName,GatewayModel,Slot,Subunit,Port,FloorBuilding,RoomCubicle,DevicePool,DeptMainNumber,FirstName1,LastName1,Extension1,UserName,CoverTo1
+SGT,Radiology,gateway.domain.name,450,1,0,21,GL1,32C,,5136364200,Fax Machine,,5131028985,,
+SGT,Radiology,gateway.domain.name,450,1,0,21,GL1,32C,OH-SGT-FAX-DP,5136364200,Fax Machine,,5131028985,,

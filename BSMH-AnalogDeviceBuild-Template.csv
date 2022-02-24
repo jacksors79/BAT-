@@ -1,0 +1,3 @@
+SITEID,Department,GatewayName,GatewayModel,Slot,Subunit,Port,Map,MapLocation,DevicePool,DeptMainNumber,FirstName1,LastName1,Extension1,UserName,CoverTo1
+AT.RIC,Radiology,gateway.domain.name,450,1,0,21,A1,32,,8645551234,Fax Machine,,8645555678,,
+AT.RIC,Radiology,gateway.domain.name,450,1,0,21,A1,32,AT.RIC.Radiology.FAX.DP,8645551234,Fax Machine,,8645555678,,
