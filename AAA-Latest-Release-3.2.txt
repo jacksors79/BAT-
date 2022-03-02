@@ -1,1 +1,43 @@
 Please contact me to obtain the latest build release.
+
+Roadmap Items
+- Evaluate need to change web post method for older call manager versions that use SSL and not TLS
+
+Version 3.31 3-2-2022
+- Fixed issue with setting multiple device pool values for building analog with both faxes and phones in different device pools to work in bulk
+- Added DN Migration feature to enable advertise ILS for BSMH environments
+
+Version 3.3 2-28-2022
+- Support for BSMH Acute Clusters; possibly needs updated if BSMH changes PBT template naming convention
+- Added support for 11-Digit Directory Number format to support builds in BSMH Hampton Roads cluster
+
+Version 3.2 2-25-2022
+- Support for generic 4 and 5 digit phone and analog builds to be customer agnostic. Supports +E164 dial plans with either 4 or 5 digit shortcut dial or straight 4 or 5 digit extension lengths
+- Manual selection can be used agains any customer environment and it uses generic formats as listed on the Dial Plan Details Tab
+- Modified code for managing extension and voicemail pattern lengths to fit with universal dial plan options
+- Fixed issue with CCHMC call recording values not being properly set
+- Added latest release text file to Github and updated Help tab to inform users to always check for available release. Contact me to get the latest available build
+- Added label on Build and BSMH Tools tab to let users know what the bottom RTB is used for
+- Added description exampls to NCQ line build section to inform users of the format for each box
+
+Version 3.1 2-22-2022
+New in this release
+- Link to Git Hub repository with document information
+- BSMH tools specific tab
+- If get on source phone/partition fails, extensions are no longer added. Removes requirement to delete extensions from <none> Partition
+- Added log box on form to monitor line and device add events
+- add tracker to count rows processed and update on form page as CSV is read
+- Added notification to "All Done" box to include notification to check the log file and provide log file path
+- Clear Input and Log file settings after processing an button click build operation
+- Pop up box notifying user to set input and log files before action is performed
+- Added descriptions to dial plan elements for default customer selections
+- Added this version information box :)
+- Added task monitor box to BSMH tab to monitor build actions
+
+
+Version 3.0 -- Release date 2-18-2022
+- Initial launch of combined applications and multi-customer support
+
+Version 2.5 -- Release date 2-2-2022
+- version was garbage. It only supported a single customer for a single task and it made you enter the customers server information instead of having it pre-saved!!! That was an oversite on the developers part.
+- throw these scripts away
